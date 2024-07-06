@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #FFF8E7;
+    font-family: "Poppins", sans-serif;
+}
+
+header,
+.navbar-brand {
+    height: 80px;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+}
+
+.collapse {
+    margin: 0 15px 0 0;
+}
+
+.navbar-collapse {
+    margin: 0 15px 0 0;
+}
+
+.navbar-toggler {
+    border: none;
+    /* Remove default border */
+    background-color: transparent;
+    /* Make background transparent */
+    color: #6bcff9;
+    /* Button color */
+    font-size: 1.5rem;
+    /* Button size */
+    margin-right: 10px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    /* Remove focus outline */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%236bcff9' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.5em;
+    /* Icon size */
+    height: 1.5em;
+}
+
+.navbar-nav .nav-link {
+    color: #ff77d9; /* Link color */
+    font-size: 1.2rem; /* Link font size */
+    padding: 10px 20px; /* Link padding */
+    border-radius: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ff00b787; /* Hover background color */
+    color: #6bcff9; /* Hover text color */
+    border-radius: 25px;
+}

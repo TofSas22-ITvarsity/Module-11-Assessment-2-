@@ -1,0 +1,192 @@
+[
+    {
+        "review_id": 1,
+        "restaurant_name": "La Petite Maison",
+        "city": "Paris",
+        "country": "France",
+        "review_date": "2024-06-15",
+        "rating": 4.5,
+        "review_text": "La Petite Maison offers an exquisite dining experience with a beautiful ambiance and exceptional service. The Coq au Vin was tender and flavorful, and the Crème Brûlée was the perfect ending to a delightful meal.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/lapetitemaison1.jpg",
+                "description": "Coq au Vin - tender and flavorful"
+            },
+            {
+                "image_url": "https://example.com/images/lapetitemaison2.jpg",
+                "description": "Crème Brûlée - perfect ending"
+            }
+        ]
+    },
+    {
+        "review_id": 2,
+        "restaurant_name": "Sushi Saito",
+        "city": "Tokyo",
+        "country": "Japan",
+        "review_date": "2024-06-20",
+        "rating": 5.0,
+        "review_text": "Sushi Saito lives up to its three Michelin stars with impeccably fresh fish and masterfully crafted sushi. The Omakase menu was an unforgettable experience, with each piece of sushi being a work of art.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/sushisaito1.jpg",
+                "description": "Omakase Sushi - a work of art"
+            },
+            {
+                "image_url": "https://example.com/images/sushisaito2.jpg",
+                "description": "Sushi Chef at work"
+            }
+        ]
+    },
+    {
+        "review_id": 3,
+        "restaurant_name": "Pujol",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "review_date": "2024-06-25",
+        "rating": 4.8,
+        "review_text": "Pujol offers a modern take on traditional Mexican cuisine. The Mole Madre was rich and complex, and the Tacos al Pastor were bursting with flavor. The presentation and creativity in each dish were remarkable.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/pujol1.jpg",
+                "description": "Mole Madre - rich and complex"
+            },
+            {
+                "image_url": "https://example.com/images/pujol2.jpg",
+                "description": "Tacos al Pastor - bursting with flavor"
+            }
+        ]
+    },
+    {
+        "review_id": 4,
+        "restaurant_name": "The Ledbury",
+        "city": "London",
+        "country": "United Kingdom",
+        "review_date": "2024-06-30",
+        "rating": 4.9,
+        "review_text": "The Ledbury delivers an exceptional dining experience with innovative dishes and impeccable service. The Venison Wellington was perfectly cooked, and the Lemon Tart was a delightful balance of sweet and tart.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/theledbury1.jpg",
+                "description": "Venison Wellington - perfectly cooked"
+            },
+            {
+                "image_url": "https://example.com/images/theledbury2.jpg",
+                "description": "Lemon Tart - delightful balance"
+            }
+        ]
+    },
+    {
+        "review_id": 5,
+        "restaurant_name": "Gaggan",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "review_date": "2024-07-05",
+        "rating": 4.7,
+        "review_text": "Gaggan offers a unique dining experience with its progressive Indian cuisine. The Yogurt Explosion was a burst of flavors, and the Lamb Curry was rich and aromatic. Each dish was a delightful surprise.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/gaggan1.jpg",
+                "description": "Yogurt Explosion - burst of flavors"
+            },
+            {
+                "image_url": "https://example.com/images/gaggan2.jpg",
+                "description": "Lamb Curry - rich and aromatic"
+            }
+        ]
+    },
+    {
+        "review_id": 6,
+        "restaurant_name": "Osteria Francescana",
+        "city": "Modena",
+        "country": "Italy",
+        "review_date": "2024-07-10",
+        "rating": 5.0,
+        "review_text": "Osteria Francescana is a culinary gem with its creative and beautifully presented dishes. The Five Ages of Parmigiano Reggiano was a fascinating journey of flavors, and the Oops! I Dropped the Lemon Tart was a playful yet delicious dessert.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/osteriafrancescana1.jpg",
+                "description": "Five Ages of Parmigiano Reggiano - fascinating journey"
+            },
+            {
+                "image_url": "https://example.com/images/osteriafrancescana2.jpg",
+                "description": "Oops! I Dropped the Lemon Tart - playful yet delicious"
+            }
+        ]
+    },
+    {
+        "review_id": 7,
+        "restaurant_name": "Eleven Madison Park",
+        "city": "New York",
+        "country": "USA",
+        "review_date": "2024-07-15",
+        "rating": 4.6,
+        "review_text": "Eleven Madison Park offers an exceptional dining experience with its elegant dishes and impeccable service. The Honey Lavender Duck was perfectly cooked, and the Chocolate Covered Pretzel was a delightful treat.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/elevenmadisonpark1.jpg",
+                "description": "Honey Lavender Duck - perfectly cooked"
+            },
+            {
+                "image_url": "https://example.com/images/elevenmadisonpark2.jpg",
+                "description": "Chocolate Covered Pretzel - delightful treat"
+            }
+        ]
+    },
+    {
+        "review_id": 8,
+        "restaurant_name": "Narisawa",
+        "city": "Tokyo",
+        "country": "Japan",
+        "review_date": "2024-07-20",
+        "rating": 4.8,
+        "review_text": "Narisawa offers a unique dining experience with its innovative and beautifully presented dishes. The Bread of the Forest was a delightful surprise, and the Wagyu Beef was incredibly tender and flavorful.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/narisawa1.jpg",
+                "description": "Bread of the Forest - delightful surprise"
+            },
+            {
+                "image_url": "https://example.com/images/narisawa2.jpg",
+                "description": "Wagyu Beef - incredibly tender"
+            }
+        ]
+    },
+    {
+        "review_id": 9,
+        "restaurant_name": "Central",
+        "city": "Lima",
+        "country": "Peru",
+        "review_date": "2024-07-25",
+        "rating": 4.9,
+        "review_text": "Central offers a culinary journey through Peru with its beautifully crafted dishes. The Amazonian Fish was fresh and flavorful, and the Purple Corn Pudding was a delightful and unique dessert.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/central1.jpg",
+                "description": "Amazonian Fish - fresh and flavorful"
+            },
+            {
+                "image_url": "https://example.com/images/central2.jpg",
+                "description": "Purple Corn Pudding - delightful dessert"
+            }
+        ]
+    },
+    {
+        "review_id": 10,
+        "restaurant_name": "The French Laundry",
+        "city": "Yountville",
+        "country": "USA",
+        "review_date": "2024-07-30",
+        "rating": 5.0,
+        "review_text": "The French Laundry offers an exquisite dining experience with its impeccable dishes and exceptional service. The Truffle Risotto was rich and creamy, and the Chocolate Tart was the perfect end to a perfect meal.",
+        "images": [
+            {
+                "image_url": "https://example.com/images/thefrenchlaundry1.jpg",
+                "description": "Truffle Risotto - rich and creamy"
+            },
+            {
+                "image_url": "https://example.com/images/thefrenchlaundry2.jpg",
+                "description": "Chocolate Tart - perfect end"
+            }
+        ]
+    }
+]
