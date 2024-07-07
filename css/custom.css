@@ -5,6 +5,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.section-divider{ 
+    margin: 6rem 0;
+}
+
 header,
 .navbar-brand {
     height: 80px;
@@ -57,4 +61,55 @@ header,
     background-color: #ff00b787; /* Hover background color */
     color: #6bcff9; /* Hover text color */
     border-radius: 25px;
+}
+
+.home {
+    margin-top: 80px;
+}
+
+.heading {
+    font-size: 80px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.carousel-indicators button {
+  background-color: #ebd9d9b5;
+  margin: 0 3px;
+  width: 25px;
+  height: 3px;
+  border-radius: 15px;
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.carousel-indicators button:hover {
+  background-color: rgba(0, 0, 0, 0.095);
+  cursor: pointer;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 400px; /* Set the height you want */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.about {
+    margin-top: 6rem;
+}
+
+.claire {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
