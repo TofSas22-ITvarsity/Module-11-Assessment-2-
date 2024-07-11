@@ -113,3 +113,13 @@ header,
     height: 600px;
     object-fit: cover;
 }
+
+.reviews-btn {
+    background-color: #000;
+    border: none;
+}
+
+.reviews-btn:hover {
+    background-color: #ff77d9;
+    border: none;
+}

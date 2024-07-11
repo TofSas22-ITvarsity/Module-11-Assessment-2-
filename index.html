@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>
+<body onload="init()">
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
@@ -39,7 +39,7 @@
                     <h1 class="feature-heading pb-2 heading">Welcome to FoodieFanatix</h1>
                     <p class="lead">Your Ultimate Guide to Global Cuisine! Join Claire on Her Culinary Adventures Around
                         the Globe.</p>
-                    <p><a href="#" class="btn btn-primary mt-3 reviews-btn" role="button">View Reviews</a></p>
+                    <p><a href="#" class="btn btn-primary mt-2 btn-lg reviews-btn" role="button">View Reviews</a></p>
                 </div>
 
                 <div class="col-6">
@@ -52,7 +52,7 @@
 
                         <div class="carousel-inner rounded-3">
                             <div class="carousel-item active">
-                                <img src="images/oyster.jpg" class="d-block w-100 carousel-img">
+                                <img src="images/oyster.jpg" class="d-block w-100 carousel-img img-fluid">
                                 <div class="carousel-caption">
                                     <h1>Oyster</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -60,7 +60,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="images/shrimp.jpg" class="d-block w-100 carousel-img">
+                                <img src="images/shrimp.jpg" class="d-block w-100 carousel-img img-fluid">
                                 <div class="carousel-caption">
                                     <h1>Shrimp</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -68,7 +68,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img src="images/sushi2.jpg" class="d-block w-100 carousel-img">
+                                <img src="images/sushi2.jpg" class="d-block w-100 carousel-img img-fluid">
                                 <div class="carousel-caption">
                                     <h1>Sushi</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -113,16 +113,29 @@
                 </div>
                 <div class="col-md-5 order-md-1">
                     <img src="images/claire-bear.jpg"
-                        class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded-3 claire">
+                        class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto rounded-3 img-fluid claire">
                 </div>
             </div>
         </div>
 
         <hr class="section-divider">
+
+        <div class="reviews-section row container mx-auto">
+            <div class="column" id="reviews">
+                Loading content...
+            </div>
+        </div>
+
+        <hr class="section-divider">
+
+        <div class="contact">
+
+        </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
