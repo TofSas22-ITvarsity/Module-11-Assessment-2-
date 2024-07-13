@@ -123,3 +123,14 @@ header,
     background-color: #ff77d9;
     border: none;
 }
+
+.card-img-container {
+    height: 400px; /* Set this to the desired height */
+    overflow: hidden;
+}
+
+.card-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
