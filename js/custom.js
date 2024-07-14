@@ -31,7 +31,7 @@ function displayReviews(data) {
                         <h4 class="card-title">${review.restaurant_name}</h4>
                         <p class="card-text">${review.rating}⭐️</p>
                         <p class="card-text">${review.review_short_text}</p>
-                        <a href="#" class="btn btn-primary">Full Review</a>
+                        <a href="#" class="btn btn-primary" onclick="openModal(${i})">Full Review</a>
                         <small class="text-muted">${review.review_date}</small>
                     </div>
                 </div>
@@ -41,3 +41,35 @@ function displayReviews(data) {
 
     document.getElementById("reviews").innerHTML = output;
 }
+
+function openModal(index) {
+    fetch(rootPath)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            const review = data[index];
+            document.getElementById('modalRestaurantName').innerText = review.restaurant_name;
+            document.getElementById('modalReviewText').innerText = review.review_text;
+
+            let carouselInner = document.getElementById('carouselInner');
+            carouselInner.innerHTML = '';
+
+            for (let i = 0; i < review.images.length; i++) {
+                const image = review.images[i];
+                const activeClass = i === 0 ? 'active' : '';
+                carouselInner.innerHTML += `
+                    <div class="carousel-item ${activeClass}">
+                        <img src="${image.image_url}" class="d-block w-100" alt="${image.description}">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>${image.description}</p>
+                        </div>
+                    </div>
+                `;
+            }
+
+            $('#reviewModal').modal('show');
+        });
+}
+
+document.addEventListener('DOMContentLoaded', init);
