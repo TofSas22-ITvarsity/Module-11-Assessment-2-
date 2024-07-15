@@ -14,11 +14,11 @@
         },
         "images": [
             {
-                "image_url": "images/La-Petite-Maison.jpg",
+                "image_url": "images/coq au vin.jpg",
                 "description": "Coq au Vin - tender and flavorful"
             },
             {
-                "image_url": "images/lapetitemaison2.jpg",
+                "image_url": "images/Crème Brûlée.jpg",
                 "description": "Crème Brûlée - perfect ending"
             }
         ]
@@ -38,11 +38,11 @@
         },
         "images": [
             {
-                "image_url": "images/sushisaito1.jpg",
+                "image_url": "images/omakase sushi.jpg",
                 "description": "Omakase Sushi - a work of art"
             },
             {
-                "image_url": "images/sushisaito2.jpg",
+                "image_url": "images/sushi.jpg",
                 "description": "Sushi Chef at work"
             }
         ]
@@ -62,11 +62,11 @@
         },
         "images": [
             {
-                "image_url": "images/Pujol1.jpg",
+                "image_url": "images/mole-madre.webp",
                 "description": "Mole Madre - rich and complex"
             },
             {
-                "image_url": "images/pujol2.jpg",
+                "image_url": "images/tacos.jpg",
                 "description": "Tacos al Pastor - bursting with flavor"
             }
         ]
@@ -86,11 +86,11 @@
         },
         "images": [
             {
-                "image_url": "images/theledbury1.jpg",
+                "image_url": "images/wellington.jpg",
                 "description": "Venison Wellington - perfectly cooked"
             },
             {
-                "image_url": "images/theledbury2.jpg",
+                "image_url": "images/lemon tart.jpg",
                 "description": "Lemon Tart - delightful balance"
             }
         ]
@@ -110,11 +110,11 @@
         },
         "images": [
             {
-                "image_url": "images/gaggan1.jpg",
+                "image_url": "images/yoghurt.jpg",
                 "description": "Yogurt Explosion - burst of flavors"
             },
             {
-                "image_url": "images/gaggan2.jpg",
+                "image_url": "images/lamb curry.jpg",
                 "description": "Lamb Curry - rich and aromatic"
             }
         ]
@@ -134,11 +134,11 @@
         },
         "images": [
             {
-                "image_url": "images/osteriafrancescana1.jpg",
+                "image_url": "images/cheese.jpg",
                 "description": "Five Ages of Parmigiano Reggiano - fascinating journey"
             },
             {
-                "image_url": "images/osteriafrancescana2.jpg",
+                "image_url": "images/italian lemon tart.jpg",
                 "description": "Oops! I Dropped the Lemon Tart - playful yet delicious"
             }
         ]
@@ -158,11 +158,11 @@
         },
         "images": [
             {
-                "image_url": "images/Eleven Madison Park.jpg",
+                "image_url": "images/duck.jpg",
                 "description": "Honey Lavender Duck - perfectly cooked"
             },
             {
-                "image_url": "images/elevenmadisonpark2.jpg",
+                "image_url": "images/choc-pretzel.jpg",
                 "description": "Chocolate Covered Pretzel - delightful treat"
             }
         ]
@@ -182,11 +182,11 @@
         },
         "images": [
             {
-                "image_url": "images/narisawa1.jpg",
+                "image_url": "images/bread.jpg",
                 "description": "Bread of the Forest - delightful surprise"
             },
             {
-                "image_url": "images/narisawa2.jpg",
+                "image_url": "images/wagyu.jpg",
                 "description": "Wagyu Beef - incredibly tender"
             }
         ]
@@ -206,11 +206,11 @@
         },
         "images": [
             {
-                "image_url": "images/central1.jpg",
+                "image_url": "images/fish.jpg",
                 "description": "Amazonian Fish - fresh and flavorful"
             },
             {
-                "image_url": "images/central2.jpg",
+                "image_url": "images/corn.jpg",
                 "description": "Purple Corn Pudding - delightful dessert"
             }
         ]
@@ -230,11 +230,11 @@
         },
         "images": [
             {
-                "image_url": "images/thefrenchlaundry1.jpg",
+                "image_url": "images/risotto.jpg",
                 "description": "Truffle Risotto - rich and creamy"
             },
             {
-                "image_url": "images/thefrenchlaundry2.jpg",
+                "image_url": "images/choc-tart.jpg",
                 "description": "Chocolate Tart - perfect end"
             }
         ]
