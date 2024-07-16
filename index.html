@@ -130,9 +130,37 @@
 
         <hr class="section-divider">
 
-        <div class="contact">
-
+        <div class="container-contact d-flex justify-content-center align-items-center mx-5 px-5 shadow rounded bg-white">
+            <div class="row w-100">
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="images/contact.jpg" class="contact-img img-fluid" alt="Contact Image">
+                </div>
+                <div class="col-md-6">
+                    <form id="mainForm" class="p-4" novalidate>
+                        <h2 class="mb-4">JavaScript Form Validator</h2>
+                        <div class="form-group mb-3">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" autocomplete="off">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" autocomplete="off">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone" autocomplete="off">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
+        
+        <hr class="section-divider">
 
         <!-- Modal Structure -->
         <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalLabel"
@@ -141,12 +169,11 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="reviewModalLabel">Restaurant Review</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
                     </div>
                     <div class="modal-body">
-                        <h4 id="modalRestaurantName"></h4>
+                        <h4 id="modalRestaurantName" class="text-center mb-3">
+                            <!-- Restuarant name will be dynamically added here -->
+                        </h4>
                         <div id="modalCarousel" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner" id="carouselInner">
                                 <!-- Carousel items will be dynamically added here -->
@@ -160,7 +187,7 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                        <p id="modalReviewText"></p>
+                        <p id="modalReviewText" class="m-3"><!-- Review text will be dynamically added here --></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

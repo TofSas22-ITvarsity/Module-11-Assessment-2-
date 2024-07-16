@@ -9,13 +9,15 @@ body {
     margin: 6rem 0;
 }
 
+/* Navbar */
+
 header,
 .navbar-brand {
     height: 80px;
 }
 
 .navbar {
-    background-color: #f2f2f2;
+    background-color: #000;
 }
 
 .collapse {
@@ -63,6 +65,8 @@ header,
     border-radius: 25px;
 }
 
+/* home header */
+
 .home {
     margin-top: 80px;
 }
@@ -104,6 +108,8 @@ header,
     object-fit: cover; /* Ensure the image covers the entire area */
 }
 
+/* About */
+
 .about {
     margin-top: 6rem;
 }
@@ -113,6 +119,8 @@ header,
     height: 600px;
     object-fit: cover;
 }
+
+/* Review Section */
 
 .reviews-btn {
     background-color: #000;
@@ -133,4 +141,65 @@ header,
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* modals */
+
+.modal-img {
+    width: 100%;
+    height: 600px; /* Set the height you want */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+/* Contact */
+
+.container-contact {
+    min-height: 90vh; /* Adjust height as needed */
+    background-color: #fff;
+}
+
+.contact-img {
+    height: 599.5px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#mainForm {
+    max-width: 500px;
+    margin: auto;
+}
+
+form h2 {
+    color: #000; /* Primary color for heading */
+    text-align: center;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+form .form-group input,
+form .form-group textarea {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form .form-group input:focus,
+form .form-group textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
 }

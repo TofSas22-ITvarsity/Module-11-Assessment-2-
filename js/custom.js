@@ -23,7 +23,7 @@ function displayReviews(data) {
         const review = data[i];
         output += `
             <div class="col">
-                <div class="card h-100" style="width:400px">
+                <div class="card h-100 shadow-sm" style="width:400px">
                     <div class="card-img-container">
                         <img class="card-img-top img-fluid" src="${review.restaurant_image.image_url}" alt="${review.restaurant_image.description}">
                     </div>
@@ -60,7 +60,7 @@ function openModal(index) {
                 const activeClass = i === 0 ? 'active' : '';
                 carouselInner.innerHTML += `
                     <div class="carousel-item ${activeClass}">
-                        <img src="${image.image_url}" class="d-block w-100" alt="${image.description}">
+                        <img src="${image.image_url}" class="d-block rounded w-100 modal-img" alt="${image.description}">
                         <div class="carousel-caption d-none d-md-block">
                             <p>${image.description}</p>
                         </div>
