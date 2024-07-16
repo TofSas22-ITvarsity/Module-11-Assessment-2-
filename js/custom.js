@@ -22,7 +22,7 @@ function displayReviews(data) {
     for (let i = 0; i < data.length; i++) {
         const review = data[i];
         output += `
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card h-100 shadow-sm" style="width:400px">
                     <div class="card-img-container">
                         <img class="card-img-top img-fluid" src="${review.restaurant_image.image_url}" alt="${review.restaurant_image.description}">

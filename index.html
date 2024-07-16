@@ -7,12 +7,13 @@
     <title>FoodieFanatix</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body onload="init()">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" onload="init()">
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <nav class="navbar navbar-expand-sm shadow-lg fixed-top">
             <a href="#" class="navbar-brand"><img src="images/Beige Brown Bold Playful Cookies Brand Logo.png"
                     alt="logo" class="logo img-fluid"></a>
 
@@ -22,10 +23,10 @@
 
             <div class="collapse navbar-collapse" id="navbar">
                 <div class="navbar-nav ms-auto">
-                    <a href="#" class="nav-item nav-link">Home</a>
-                    <a href="#" class="nav-item nav-link">Reviews</a>
-                    <a href="#" class="nav-item nav-link">About</a>
-                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <a href="#sectionHome" class="nav-item nav-link">Home</a>
+                    <a href="#sectionReviews" class="nav-item nav-link">Reviews</a>
+                    <a href="#sectionAbout" class="nav-item nav-link">About</a>
+                    <a href="#sectionContact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
@@ -33,14 +34,16 @@
 
     <main>
 
-        <div class="container home">
+        <div class="container home" id="sectionHome">
             <div class="row">
 
                 <div class="col-6 py-5">
-                    <h1 class="feature-heading pb-2 heading">Welcome to FoodieFanatix</h1>
+                    <h1 class="feature-heading pb-2 heading">Welcome to <span class="foodie">Foodie</span><span
+                            class="fanatix">Fanatix</span></h1>
                     <p class="lead">Your Ultimate Guide to Global Cuisine! Join Claire on Her Culinary Adventures Around
                         the Globe.</p>
-                    <p><a href="#" class="btn btn-primary mt-2 btn-lg reviews-btn" role="button">View Reviews</a></p>
+                    <p><a href="#sectionReviews" class="btn btn-primary mt-2 btn-lg reviews-btn" role="button">View
+                            Reviews</a></p>
                 </div>
 
                 <div class="col-6">
@@ -84,10 +87,11 @@
             </div>
         </div>
 
-        <div class="container about">
+        <div class="container about" id="sectionAbout">
             <div class="row">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="feature-heading pb-1">About Claire. <span class="text-muted">The FoodieFanatix.</span>
+                    <h2 class="feature-heading pb-1">About Claire. <span class="text-muted">The <span
+                                class="foodie">Foodie</span><span class="fanatix">Fanatix</span>.</span>
                     </h2>
                     <p class="">Welcome to FoodieFanatix! I'm Claire, a passionate food blogger and avid
                         traveler. My mission is to explore the world's culinary delights and share my experiences with
@@ -121,7 +125,7 @@
 
         <hr class="section-divider">
 
-        <div class="reviews-section container mx-auto">
+        <div class="reviews-section container mx-auto" id="sectionReviews">
             <h2 class="feature-heading mb-5">Reviews</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4" id="reviews">
                 Loading content...
@@ -130,36 +134,41 @@
 
         <hr class="section-divider">
 
-        <div class="container-contact d-flex justify-content-center align-items-center mx-5 px-5 shadow rounded bg-white">
+        <div class="container-contact d-flex justify-content-center align-items-center mx-5 px-5 shadow-sm rounded bg-white"
+            id="sectionContact">
             <div class="row w-100">
                 <div class="col-md-6 d-none d-md-block">
                     <img src="images/contact.jpg" class="contact-img img-fluid" alt="Contact Image">
                 </div>
                 <div class="col-md-6">
                     <form id="mainForm" class="p-4" novalidate>
-                        <h2 class="mb-4">JavaScript Form Validator</h2>
+                        <h2 class="mb-4">Contact Us:</h2>
                         <div class="form-group mb-3">
                             <label for="name">Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Enter your name" autocomplete="off">
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name"
+                                autocomplete="off">
                         </div>
                         <div class="form-group mb-3">
                             <label for="email">Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Enter your email" autocomplete="off">
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email"
+                                autocomplete="off">
                         </div>
                         <div class="form-group mb-3">
                             <label for="phone">Phone</label>
-                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone" autocomplete="off">
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone"
+                                autocomplete="off">
                         </div>
                         <div class="form-group mb-4">
                             <label for="message">Message</label>
-                            <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                            <textarea id="message" class="form-control" rows="5"
+                                placeholder="Enter your message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary w-100">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
-        
+
         <hr class="section-divider">
 
         <!-- Modal Structure -->
@@ -197,6 +206,11 @@
         </div>
 
     </main>
+
+    <footer class="p-4">
+        <p style="float: right;" class="p-5"><a href="#"><i class="fa-solid fa-caret-up" style="color: #ffffff; font-size: 40px;"></i></a></p>
+        <p class="text-center p-5">&copy; 2024 Foodie Fanatix. All rights reserved.</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
