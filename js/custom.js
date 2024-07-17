@@ -23,7 +23,7 @@ function displayReviews(data) {
         const review = data[i];
         output += `
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-                <div class="card h-100 shadow-sm" style="width:400px">
+                <div class="card h-100 shadow-sm reviewCard">
                     <div class="card-img-container">
                         <img class="card-img-top img-fluid" src="${review.restaurant_image.image_url}" alt="${review.restaurant_image.description}">
                     </div>
@@ -31,7 +31,7 @@ function displayReviews(data) {
                         <h4 class="card-title">${review.restaurant_name}</h4>
                         <p class="card-text">${review.rating}⭐️</p>
                         <p class="card-text">${review.review_short_text}</p>
-                        <a href="#" class="btn btn-primary" onclick="openModal(${i})">Full Review</a>
+                        <a href="#" class="btn btn-primary reviews-btn" onclick="openModal(${i})">Full Review</a>
                         <small class="text-muted">${review.review_date}</small>
                     </div>
                 </div>
